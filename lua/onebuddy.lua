@@ -610,3 +610,10 @@ Group.new('TSUnderline',          c.hue_6_2, c.none, no)
 Group.new('TSURI',                c.hue_6_2, c.none, no)
 Group.new('TSVariable',           c.hue_1, c.none, no)
 Group.new('TSVariableBuiltin',    c.hue_6_2, c.none, no)
+
+
+-- built_in LSP
+Group.new("LspDiagnosticsDefaultWarning", c.hue_6, c.none , no)
+Group.new("LspDiagnosticsDefaultError", c.hue_5_2, c.none, b)
+Group.new("LspDiagnosticsDefaultHint", c.mono_1, c.none, sto)
+Group.new("LspDiagnosticsDefaultInformation", c.white, c.none, i)
